@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      max-width: 30%;
+      background-color: blanchedalmond;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+    }
+
+    p {
+      padding: 5px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <p>
+          Nulla vehicula, justo vitae rhoncus posuere, sapien nisl laoreet justo, sed euismod tellus mauris a turpis. Praesent
+          interdum blandit elit vitae rhoncus. In purus velit, commodo sit amet tempus non, placerat vel libero. Praesent a nisi
+          dolor. Aliquam purus orci, iaculis ac volutpat quis, auctor sit amet justo. Vestibulum ante ipsum primis in faucibus
+          orci luctus et ultrices posuere cubilia curae; In vitae nisi molestie, suscipit massa at, fringilla mauris.
+        </p>
+        <img src="images/left-image.jpg" alt="left-image" width="100%">
+      </div>
+      <div class="column">
+        <p>
+          Cras ligula massa, sodales eu sem rhoncus, pulvinar auctor lorem. Pellentesque quis justo arcu. Maecenas vel
+          pellentesque magna. Nunc interdum a felis vehicula efficitur. Etiam tincidunt purus eu purus tristique varius. Quisque
+          id tristique dui. Mauris tempor ligula elit, a ultricies mauris condimentum in. Sed molestie hendrerit lectus, id
+          dapibus elit auctor nec. Suspendisse rutrum sapien eu nunc semper, sed cursus neque pulvinar. Suspendisse iaculis congue
+          lobortis. Maecenas aliquet ipsum cursus augue viverra eleifend.
+        </p>
+        <img src="images/center-image.jpg" alt="center-image" width="100%">
+      </div>
+      <div class="column">
+        <p>
+          Suspendisse eleifend dictum facilisis. Phasellus egestas nibh sed ante aliquam pellentesque. Morbi vel elementum massa.
+          Donec volutpat elit ut vulputate viverra. Donec lacinia ipsum tellus, et feugiat est aliquet a. Nulla pulvinar nisl eu
+          magna porttitor egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut
+          interdum ipsum nibh, ut varius neque pharetra a. Aenean nec aliquam ante. Duis nec orci in purus rutrum convallis ac at
+          orci. Fusce lobortis metus libero, in congue mauris euismod non. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit.
+        </p>
+        <img src="images/right-image.jpg" alt="right-image" width="100%">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
